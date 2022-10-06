@@ -4626,7 +4626,7 @@ input[type="button"].btn-block {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
-
+  height: 25VH;
 }
 
 .card-title {
@@ -6067,6 +6067,12 @@ a.close.disabled {
   .modal-sm {
     max-width: 300px;
   }
+  h4{
+    font-size: 1.2em;
+  }
+.text-white{
+  font-size: 0.9em;
+  padding-top: 2vh;
 }
 
 @media (min-width: 992px) {
@@ -10304,7 +10310,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #037A90 !important;
+  color: #037A90 !important; 
 }
 
 .text-primary {
